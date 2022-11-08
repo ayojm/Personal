@@ -1,37 +1,45 @@
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(10, 10, 10);
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid rgb(174, 69, 69);
+    border-left: 1px solid beige#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid rgb(12, 132, 114);
+    border-right: 1px solid#999;
+}
+
+.button {
+    border: 0.5px solid rgb(113, 207, 185);
+    line-height: 100px;
     text-align: center;
-    background-color: blanchedalmond;
+    font-size: 25px;
+    cursor: pointer;
 }
-hr{
-    width: 500px;
-    height: 3px;
-    background-color: aqua;
+
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
 }
-#board{
-    width: 450px;
-    height: 450px;
-    background-color: blueviolet;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-.title{
-    width: 147px;
-    height: 147px;
-    font-size: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.horizontal-line{
-    border-right: 3px; 
-}
-.vertical-line{
-    border-right: 3px;
-}
-.winner{
-    background-color: azure;
-    color: red;
+
+.button:hover {
+    background-color: #618024;
+    color: rgb(203, 126, 126);
+    transition: 0.5s ease-in-out;
 }
