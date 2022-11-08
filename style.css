@@ -4,7 +4,6 @@
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px rgb(10, 10, 10);
 }
-
 #display {
     text-align: right;
     height: 70px;
@@ -16,13 +15,13 @@
 .buttons {
     display: grid;
     border-bottom: 1px solid rgb(174, 69, 69);
-    border-left: 1px solid beige#999;
+    border-left: 1px solid beige;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .buttons > div {
     border-top: 1px solid rgb(12, 132, 114);
-    border-right: 1px solid#999;
+    border-right: 1px solid purple;
 }
 
 .button {
@@ -42,4 +41,7 @@
     background-color: #618024;
     color: rgb(203, 126, 126);
     transition: 0.5s ease-in-out;
+}
+body{
+    background-color: pink;
 }
