@@ -1,0 +1,37 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+hr{
+    width: 500px;
+    height: 3px;
+    background-color: aqua;
+}
+#board{
+    width: 450px;
+    height: 450px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-line{
+    border-right: 3px; 
+}
+.vertical-line{
+    border-right: 3px;
+}
+.winner{
+    background-color: azure;
+    color: red;
+}
