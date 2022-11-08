@@ -1,2 +1,2 @@
 # Welcome to blog
-Its Awic and welcome to my personal blog. A blog simply designed to introduce myself. 
+Have design a simple calculator that has no clear functions yet. next project will have element activated 
